@@ -1,0 +1,19 @@
+header {
+
+    
+    height: fit-content;
+    width: 100%;
+    background-color: darkseagreen;
+    position: relative
+
+}
+nav{
+    flex-flow: wrap-reverse;
+}
+main {
+
+    height: 100vh;
+    width: 100%;
+    background-color: khaki;
+    position:relative
+}
