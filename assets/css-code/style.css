@@ -1,15 +1,66 @@
 body {
-    display: flex;
-    line-height: normal;
-    background-color: aquamarine;
+    padding:0%;
+    margin: 0%;
+    background-color: whitesmoke;
 }
 
 header {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    padding: 1%;
-    background-color: aqua;
-    color: black;
+    display: block;
+    padding: 2%;
+    background-color: teal;
+    color: whitesmoke;
+    border: 20px;
+    border: solid;
+    border-color: whitesmoke;
+    border-radius: 20px;
 }
 
+.header {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+   
+    /* border: 5px;
+    border: dashed;
+    border-color: red; */
+}
+
+.nav {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-end;
+
+    /* border: 2px dashed red; */
+
+}
+.nav a {
+    color: whitesmoke;
+    font-size: medium;
+}
+
+.about-me {
+    height: 50vh;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.about-me img {
+    /* transform: scale( .25 , .25); */
+    height: 25vh;
+    padding: 5px;
+    margin: 5px;
+}
+
+.beginning-work {
+    display: flex;
+    flex-direction: column;
+height: 50vh;
+width: 100%;
+background-color: aqua;
+}
+
+.beginning-work img {
+    height: 40vh;
+    width: 50%;
+}
