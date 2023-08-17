@@ -1,78 +1,116 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, intial-scale=1.0">
-        
 
-        <title>My Portfolio</title>
-        <link rel="stylesheet" href="./assets/css-code/reset.css"/>
-        <link rel="stylesheet" href="./assets/css-code/style.css"/>
-    </head>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
 
-    <body>
-        <header>
-            <section class="header">
-                <h1> Hello, this is my Portfolio </h1>
-                <h5>  &#40;It's still under construction&#41; </h5>
-            </section>
 
-            <!-- <section class="nav"> -->
-                 <nav class="nav">
-                
-                    <a href="#about-me"> About Me/Contact Info </a>
-                    <a href="#beginning-work"> The Humble Beginngings </a>
-                    <a href="#the-climb"> The Triumphant Climb </a>
-                    <a href="#"> The Rewarding Pinnacle </a>
-                
-                 </nav>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./assets/css-code/reset.css" />
+    <link rel="stylesheet" href="./assets/css-code/style.css" />
 
-                <!-- </nav> -->
-            </section>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
 
-        </header>
+<body>
+    <header>
+        <section class="header">
+            <h1> Hello, this is my Portfolio </h1>
+            <h5> &#40;It's still under construction&#41; </h5>
+        </section>
 
-        <main>
-            <section class="about-me" id="about-me">
-                <img src="./assets/images/IMG_0459.JPG">
-                <h3> About Me / Contact Info</h3>
-                <p> This is a section about myself. </p>
-                <p> My name is Adrian Pablo Frausto </p>
-                <h4> Below is how to contact me </h4>
-                <ul>
-                    <li> Phone Number: (707) 535-5355</li>
-                    <li> Email: place-holder-email@yahoo.com</li>
-                </ul>
-                
-            </section>
+        <!-- <section class="nav"> -->
+        <nav class="nav">
 
-            <section class="beginning-work" id="beginning-work">
-                <h3> The Humble Beginnings </h3>
-                <p>This is the <strong>start</strong> of my &quot; portfolio &quot;</p>
-                <img src="./assets/images/Screen Shot 2023-06-27 at 6.28.47 PM.png" alt="image of my first piece of work">
-            </section>
-            
+            <a href="#about-me"> About Me/Contact Info </a>
+            <a href="#beginning-work"> The Humble Beginngings </a>
+            <a href="#the-climb"> The Triumphant Climb </a>
+            <a href="#"> The Rewarding Pinnacle </a>
+
+        </nav>
+
+        <!-- </nav> -->
+        </section>
+
+    </header>
+
+    <main>
+        <section class="about-me" id="about-me">
+            <img src="./assets/images/IMG_0459.JPG">
+            <h3> About Me / Contact Info</h3>
+            <p> This is a section about myself. </p>
+            <p> My name is Adrian Pablo Frausto </p>
+            <h4> Below is how to contact me </h4>
+            <ul>
+                <li> Phone Number: (707) 535-5355</li>
+                <li> Email: place-holder-email@yahoo.com</li>
+            </ul>
+
+        </section>
+
+        <section class="beginning-work" id="beginning-work">
+            <h3> The Humble Beginnings </h3>
+            <p>This is the <strong>start</strong> of my &quot; portfolio &quot;</p>
+            <img src="./assets/images/Screen Shot 2023-06-27 at 6.28.47 PM.png" alt="image of my first piece of work">
+        </section>
+
+        <div class="theClimb">
+
             <section class="the-climb" id="the-climb">
                 <h3> The Triumphant Climb </h3>
                 <p> I hope to display stronger work here one day! (06/27/2023) </p>
 
                 <p></p>
 
-                <p><a href= "https://frausto98.github.io/vacationDestination"> .. I'm finally able to display stronger work! (07/19/2023) </a> </p>
-                <img  src="./assets/images/projectImage.png">
+                <p><a href="https://frausto98.github.io/vacationDestination"> .. I'm finally able to display stronger
+                        work! (07/19/2023) </a> </p>
+                <img src="./assets/images/projectImage.png">
             </section>
 
+            <div id="theStrongest" class="mainContainer">
+                <div class="columns">
+                    <div class="column is-10 is-offset-1">
+                        <div class="content">
+                            <h1 class="title">Here, I'm able to display more of my understanding of code</h1>
+                            <h2 class="subtitle">This is the strongest work I've done so far</h2>
+                            <div class="columns">
+                                <div class="column is-4">
+                                    <p> I'm able to display my understanding of HTML, CSS, and Javascript here. </p>
+                                    <p> I'm also able to display my understanding of Bulma, and how to use it. </p>
+                                    <p> On top of all of that, -along with some help- I've now managed to develope a
+                                        full
+                                        stack application containing a full blown server, a database to hold records
+                                        such as
+                                        user information, and I'm able to develope APIs with associated RESTful routes.
+                                    </p>
+                                    <p> By clicking on the image, you will be directed to my latest group project, keep in mind, it's ran through a Heroku server.</p>
+                                    <span class="tags has-addons">
+                                        <span class="tag is-warning">Thank You</span>
+                                        <span class="tag is-white">&</span>
+                                    <span class="tag is-primary">Stay Frosty</span>
+                                    </span>
+                                </div>
+                                <div class="column is-6">
+                                   <a href="https://culinary-connections-2a73fa545141.herokuapp.com/"> <img src="./assets/images/CCSS.png" alt="image of my second project"> </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
 
-        </main>
 
-        <footer>
+    </main>
 
-
-
+    <footer>
 
 
-        </footer>
-    </body>
+
+
+
+    </footer>
+</body>
 
 
 
